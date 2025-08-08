@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EE10AF7F2E45361600DF90AD /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE10AF7E2E45361600DF90AD /* Secrets.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EE10AF612E452D9500DF90AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		EE10AF512E452D9400DF90AD /* Fridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE10AF602E452D9500DF90AD /* FridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE10AF6A2E452D9500DF90AD /* FridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE10AF7E2E45361600DF90AD /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		EE10AF482E452D9400DF90AD = {
 			isa = PBXGroup;
 			children = (
+				EE10AF7E2E45361600DF90AD /* Secrets.plist */,
 				EE10AF532E452D9400DF90AD /* Fridge */,
 				EE10AF632E452D9500DF90AD /* FridgeTests */,
 				EE10AF6D2E452D9500DF90AD /* FridgeUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE10AF7F2E45361600DF90AD /* Secrets.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +407,8 @@
 				DEVELOPMENT_TEAM = US7Q4U2C6X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "我们需要使用您的相机来拍摄冰箱照片进行分析。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "我们需要访问您的相册以选择冰箱照片进行分析。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +437,8 @@
 				DEVELOPMENT_TEAM = US7Q4U2C6X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "我们需要使用您的相机来拍摄冰箱照片进行分析。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "我们需要访问您的相册以选择冰箱照片进行分析。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
